@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+		<Metadata>
+			<Identity Language="en-US" Id="pythoncpp-debug" Version="0.3.0" Publisher="benjamin-simmonds" />
+			<DisplayName>Python C++ Debugger</DisplayName>
+			<Description xml:space="preserve">Extension for starting the Python &amp; C++ debugger on the same process in VScode</Description>
+			<Tags>python,python C++ Debug,python c++ debugger,C++ Python Debug,C++ Python Debugger,C++,cpp,C,Debug Python C++,python and c++,python &amp; c++,native,python debug,python native debug,debugger,python attach,C++ attach,Cpp attach,Python attach C++,debug python c++,ctypes,debuggers,c++,__web_extension,__sponsor_extension</Tags>
+			<Categories>Debuggers,Data Science</Categories>
+			<GalleryFlags>Public</GalleryFlags>
+			
+			<Properties>
+				<Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.49.0" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="ms-python.python,ms-vscode.cpptools" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="workspace,web" />
+				<Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+				
+				<Property Id="Microsoft.VisualStudio.Code.SponsorLink" Value="https://github.com/sponsors/benibenj" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/benibenj/vscode-pythonCpp.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/benibenj/vscode-pythonCpp.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/benibenj/vscode-pythonCpp.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/benibenj/vscode-pythonCpp/issues" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/benibenj/vscode-pythonCpp/" />
+				
+				
+				<Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+				
+				
+			</Properties>
+			<License>extension/LICENSE.txt</License>
+			<Icon>extension/images/icon.png</Icon>
+		</Metadata>
+		<Installation>
+			<InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+		</Installation>
+		<Dependencies/>
+		<Assets>
+			<Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+			<Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/readme.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="extension/LICENSE.txt" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/images/icon.png" Addressable="true" />
+		</Assets>
+	</PackageManifest>

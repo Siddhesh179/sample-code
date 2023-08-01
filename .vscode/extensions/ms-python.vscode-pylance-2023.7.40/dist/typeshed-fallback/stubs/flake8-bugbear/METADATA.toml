@@ -1,0 +1,5 @@
+version = "23.7.10"
+partial_stub = true
+
+[tool.stubtest]
+ignore_missing_stub = true

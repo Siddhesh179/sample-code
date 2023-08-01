@@ -1,0 +1,12 @@
+[core]
+	editor = \"C:\\Users\\Siddh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+	editor = sublime
+	editor = sublime
+[user]
+	name = Siddhesh
+	email = siddhesh8@outlook.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
